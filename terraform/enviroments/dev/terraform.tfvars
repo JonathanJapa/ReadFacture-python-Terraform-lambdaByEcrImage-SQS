@@ -1,0 +1,5 @@
+aws_region = "us-east-1"
+environment = "dev"
+aws_secret_key = "j5s9DD02B/0sioDymfbKHrQCa51zzw/E4v7jV4bM"
+aws_access_key = "AKIA2V7ZZUL2C4Z2KK47"
+facture_queue_url  = "https://sqs.us-east-1.amazonaws.com/734426407668/dev-factures-queue"
