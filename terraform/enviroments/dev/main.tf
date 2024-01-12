@@ -1,6 +1,14 @@
-module "logs" {
-  source         = "../../infra/convert"
-  environment     = var.environment
-  write_capacity = 1
-  read_capacity  = 1
+module "converter" {
+  source         = "../../infra/converter"
+  environment    = var.environment
+
+}
+
+module "notifications"{
+  source         = "../../infra/notifications"
+  environment    = var.environment
+}
+
+module "buckets" {
+  source         = "../../infra/buckets"
 }
